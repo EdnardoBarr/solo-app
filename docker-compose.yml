@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  app-backend:
+    build: ./solo-app-backend
+    container_name: "solo-app-backend"
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/SOLO_DB
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=12345678
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  db:
+    build: ./db
+    container_name: db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=12345678
+      - POSTGRES_DB=SOLO_DB
+    ports:
+      - "5432:5432"
+
+  app-frontend:
+    build: ./solo-app-frontend
+    container_name: "solo-app-frontend"
+    depends_on: 
+        - app-backend
+   
+  proxy: 
+    build: ./nginx
+    container_name: "solo-app-proxy"
+    restart: always
+    ports:
+        - "80:80"
