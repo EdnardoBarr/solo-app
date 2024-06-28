@@ -1,4 +1,5 @@
 <h1>SOLO APP</h1>
+<h3>About the application</h3>
 <p>SOLO is a social network focused on connecting people with similar interests in physical and social activities. Imagine being in a new city and wanting, for example, to find company for beach volleyball or exploring trails. With SOLO, you can easily discover and participate in these activities, created by other users of the platform.</p>
 
 <h3>Key Features:</h3>
@@ -10,6 +11,9 @@
 
 <h1>Proposed Model: Layered Architecture</h1>
 <p>This application was build under a typical three-layered architecture: Presentation, Service, and Data Access layers.</p>
+
+![Texto Alternativo](https://github.com/EdnardoBarr/solo-app/blob/master/layered.jpg)
+
 <h4>Presentation Layer:</h4>
 <ul>
   <li>This layer handles the interaction with the user, receives HTTP requests, and sends responses.</li>
@@ -74,9 +78,16 @@
 </ul>
 
 <h3>Starting the service</h3>
+<p><strong>cmd</strong> in the parent folder where all the projects of the application are located and run the application</p>
+
+![Texto Alternativo](https://github.com/EdnardoBarr/solo-app/blob/master/directory.png)
+
+```
+docker-compose up
+```
 
 <h1>Requests Diagram</h1>
-<p>When the application is deployed, the incoming requests will proceed in a flow as in the diagram below.</p>
+<p>Once the application is deployed, the incoming requests will proceed in a flow as in the diagram below.</p>
 <ul>
     <li>The request from the client will be met in Nginx and forwarded to the front-end port.</li>
     <li>The requests to be made by the front-end will be directed to the back-end port by Nginx again.</li>
