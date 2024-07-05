@@ -65,7 +65,7 @@
 <h1>Documentation</h1>
 <p>The documentation of the api was built with Swagger</p>
 <ul>
-  <li>http://localhost/api/v1/api-docs/swagger-ui/index.html</li>
+  <li>https://solo-app-backend-render-latest.onrender.com/api-docs/swagger-ui/index.html</li>
 </ul>
 
 <h1>Running the Project</h1>
