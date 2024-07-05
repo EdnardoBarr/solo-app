@@ -1,4 +1,10 @@
 <h1>SOLO APP</h1>
+<ul>
+    <li>https://github.com/EdnardoBarr/solo-app-backend</li>
+    <li>https://github.com/EdnardoBarr/solo-app-frontend</li>
+</ul>
+<h4>Checkou my application: https://solo-app-frontend.onrender.com/</h4>
+<p>The first access may take up to 50 seconds due to Rende'r deactivation of the application</p>
 <h3>About the application</h3>
 <p>SOLO is a social network focused on connecting people with similar interests in physical and social activities. Imagine being in a new city and wanting, for example, to find company for beach volleyball or exploring trails. With SOLO, you can easily discover and participate in these activities, created by other users of the platform.</p>
 
