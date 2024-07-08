@@ -8,22 +8,18 @@
 <h3>About the application</h3>
 <p>SOLO is a social network focused on connecting people with similar interests in physical and social activities. Imagine being in a new city and wanting, for example, to find company for beach volleyball or exploring trails. With SOLO, you can easily discover and participate in these activities, created by other users of the platform.</p>
 
+
+
 <h3>Key Features:</h3>
+<p><strong>Discover Activities:</strong> Explore a variety of activities such as sports, trekking, gym, beach, and trips, all organized based on location. </p>
 
-        ![](https://github.com/EdnardoBarr/solo-app/blob/master/activities.gif)
+![](https://github.com/EdnardoBarr/solo-app/blob/master/activities.gif)
 
-    <ul>
-        <li><strong>Discover Activities:</strong> Explore a variety of activities such as sports, trekking, gym, beach, and trips, all organized based on location.</li>
-        
-        ![](https://github.com/EdnardoBarr/solo-app/blob/master/activities.gif)
-        
-        <li><strong>Create Your Activities:</strong> Be the organizer! Create events for other users to join you in your adventures.</li>
-        
-        <li><strong>Connect with New Friends:</strong> Beyond participating in activities, you can add people you've met and stay in touch beyond the app.</li>
+<p><strong>Create Your Activities:</strong> Be the organizer! Create events for other users to join you in your adventures.</p>
 
-        ![](https://github.com/EdnardoBarr/solo-app/blob/master/connect.gif)
+<p><strong>Connect with New Friends:</strong> Beyond participating in activities, you can add people you've met and stay in touch beyond the app.</p>
 
-    </ul>
+![](https://github.com/EdnardoBarr/solo-app/blob/master/connect.gif)
 
 <h1>Proposed Model: Layered Architecture</h1>
 <p>This application was build under a typical three-layered architecture: Presentation, Service, and Data Access layers.</p>
